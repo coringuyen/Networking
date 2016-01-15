@@ -42,4 +42,5 @@ public class Combat : NetworkBehaviour {
             transform.position = Vector3.zero;
         }
     }
+    
 }
