@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.Networking;
 
+
 public class Combat : NetworkBehaviour {
 
     public const int maxHealth = 100;
@@ -42,5 +43,5 @@ public class Combat : NetworkBehaviour {
             transform.position = Vector3.zero;
         }
     }
-    
+  
 }
